@@ -1,0 +1,197 @@
+.public-header{
+    height: 110px;
+}
+.public-header .header-logo{
+    margin-top: 40px;
+    float: left;
+}
+.public-header .header-logo a{
+    width: 182px;
+    height: 54px;
+    background: url("../image/index-header-logo.jpg") no-repeat;
+}
+.public-header .header-nav{
+    float: right;
+    font-size: 14px;
+}
+.public-header .header-nav .item{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.public-header .header-nav .item a{
+    color: black;
+}
+.public-container{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.index-footer{
+    height: 218px;
+    margin-top: 200px;
+    padding-top: 100px;
+    background: #3b3b3b;
+}
+.index-footer .footer-col{
+    float: left;
+    width: 230px;
+    margin-right: 60px;
+    color: white;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.index-footer  .footer-logo{
+    width: 182px;
+    height: 55px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background: url("../image/index-footer-logo.png") no-repeat;
+}
+.index-footer .footer-col:last-child {
+    margin-right: 0;
+}
+.index-banner{
+    position: relative;
+    height: 565px;
+    background: url("../image/index-banner-bg.png") no-repeat;
+    overflow: hidden;
+
+}
+.index-menu{
+    border-top: maroon solid 10px;
+    position: relative;
+
+}
+.index-menu .menu-tips{
+    position: absolute;
+    top:0;
+    height: 75px;
+    width: 156px;
+    background: maroon;
+    color: white;
+    left: 50%;
+    text-align: center;
+    line-height: 65px;
+    margin-bottom: 80px;
+}
+.index-menu .menu-tips:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.index-menu .menu-list {
+    position: relative;
+    margin-top: 150px;
+}
+.index-menu .menu-list a{
+    color: rgba(0,0,0,0.77);
+}
+.index-menu .menu-item{
+    float: left;
+    position: relative;
+    width: 480px;
+    margin-bottom: 50px;
+    margin-right:40px ;
+}
+.index-menu .menu-item .price{
+    top: 10px;
+    right: 1px;
+    position: absolute;
+}
+.index-menu .menu-item .line{
+    width: 200px;
+    margin-top: 10px;
+    border-bottom: solid 1px #3b3b3b;
+}
+.index-menu .menu-more-btn{
+    margin: 0 auto;
+    width: 114px;
+    height: 32px;
+    padding-left: 16px;
+    border: 1px solid gray;
+    font-size: 14px;
+    line-height: 32px;
+    color: gray;
+    border-radius: 8px;
+}
+.index-menu .menu-more-btn .icon{
+    display: inline-block;
+    width: 11px;
+    height: 7px;
+    margin-left: 10px;
+    background: url("../image/index-btn-icon.png") no-repeat;
+}
+.index-panel{
+    margin-top: 200px;
+}
+.index-panel-header h3{
+    float: left;
+    margin-right: 48px;
+    font-size: 20px;
+    color: #3b3b3b;
+    font-weight: normal;
+}
+.index-panel-header .line{
+    float: left;
+    margin-top: 10px;
+    width: 200px;
+    border-top: 1px solid #e5e3e3;
+}
+.index-panel-header .btn-group{
+    float: right;
+
+}
+.index-panel-header .btn {
+    margin-left: 11px;
+    width: 9px;
+    height: 9px;
+    background: gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+.index-panel-header .active{
+    background: rgba(30,1,40,0.94);
+}
+.index-panel .food-list{
+    margin-top: 75px;
+
+}
+.food-list .food-item{
+    float: left;
+    margin-right: 40px;
+    width: 230px;
+}
+.food-item .price{
+    float: right;
+}
+.food-item .star{
+     display: inline-block;
+     background: url("../image/star.png");
+     width: 12px;
+     height: 13px;
+     margin-right: 5px;
+
+}
+.food-item .nostar{
+    display: inline-block;
+    background: url("../image/nostar.png");
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+}
+.index-panel-pic .pic-col{
+    float: left;
+}
+.index-panel-pic{
+    margin-top: 70px;
+    height: 380px;
+    overflow: hidden;
+}
+
